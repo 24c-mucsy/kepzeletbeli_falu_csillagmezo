@@ -1,0 +1,29 @@
+nav, header, footer{
+    background-color: #142850;
+}
+
+
+
+
+
+body{
+    background-color: #27496D;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+p, h1{
+    color: #fffacd;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.nav-link{
+    color: #fffacd !important;
+}
+
+
+img{
+    max-width: 80%;
+    margin-bottom: 50px;
+}
