@@ -5,3 +5,42 @@ nav, header{
 body{
     background-color: #27496D;
 }
+
+
+
+
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 40px;
+  background-color: rgb(174, 196, 255);
+  border: black 2px solid;
+  border-radius: 10px;
+}
+
+
+.image-box img {
+    width: 580px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+
+.card-text p{
+    margin: 4px;
+    font-size: 24px;
+    font-family: 'Times New Roman';
+    font-weight: normal; 
+}
+
+.card-text h2{
+    margin: 4px;
+    font-size: 31px;
+    font-family: 'Times New Roman', serif;
+    font-weight: bold; 
+}
+
+
