@@ -7,8 +7,22 @@ body{
 }
 
 .carousel_image {
-  width: 80%;
+  width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+.szoveg{
+    text-align: justify;
+    padding-left: 25px;
+    color: #fffacd;
+}
+
+h1, p, .nav-link{
+    color: #fffacd;
+}
+
+a:hover {
+  color: #fffacd !important;
 }
