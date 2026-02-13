@@ -1,46 +1,46 @@
-nav, header, .footer{
+nav, header, .footer {
     background-color: #142850;
 }
 
-body{
+body {
     background-color: #27496D;
 }
 
 .carousel_image {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
-.szoveg{
+.szoveg {
     text-align: justify;
     padding-left: 25px;
     color: #fffacd;
 }
 
-h1, p, .nav-link{
+h1, p, .nav-link {
     color: #fffacd;
 }
 
 a:hover {
-  color: #fffacd !important;
+    color: #fffacd !important;
 }
 
-.card-body{
+.card-body {
     text-decoration: none;
     color: #1F1F1F;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.card{
+.card {
     margin: 25px;
 }
 
-.egész, .card{
+.egész, .card {
     padding: 0;
     height: auto;
     width: 46%;
