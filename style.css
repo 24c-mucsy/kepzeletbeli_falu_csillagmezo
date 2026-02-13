@@ -26,3 +26,23 @@ h1, p, .nav-link{
 a:hover {
   color: #fffacd !important;
 }
+
+.card-body{
+    text-decoration: none;
+    color: #1F1F1F;
+}
+
+a{
+    text-decoration: none;
+}
+
+.card{
+    margin: 25px;
+}
+
+.egész, .card{
+    padding: 0;
+    height: auto;
+    width: 46%;
+    margin-bottom: 50px;
+}
