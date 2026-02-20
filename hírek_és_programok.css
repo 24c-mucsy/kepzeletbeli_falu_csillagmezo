@@ -6,6 +6,9 @@ body {
     background-color: #27496D;
 }
 
+h1, .nav-link {
+    color: #fffacd;
+}
 
 .container-custom {
     max-width: 1200px;
