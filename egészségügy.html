@@ -10,10 +10,9 @@
         <title>Csillagmező Egészségügye</title>
     </head>
     
-    <header>
-        <div id="címsor" class="p-5 text-center text-white ">
-          <h1>Csillagmező egészségügye</h1>
-        </div>
+    <header style="display: flex; align-items: center; justify-content: center; position: relative; height: 150px; border-bottom: 1px solid #ccc;">
+        <img src="cimer.png" alt="Címer" style="position: absolute; left: 10px; height: 200px;">
+        <h1 style="margin: 0;">Egészségügy</h1>
     </header>
     <nav class="navbar bs-light text-white navbar-expand-sm">
         <div class="container-fluid">
@@ -66,13 +65,62 @@
             </div>
         </div>
         <div class="card">
-            <div class="card-body">
-                <div class="card-title">Védőnői szolgálat</div>
-                <div class="card-text">Csillagmező község védőnői szolgálatát Kiss Andrea védőnő látja el.</div>
+            <div class="card-body d-flex gap-4">
+                <div class="flex-grow-1">
+                    <h4 class="card-title">Védőnői szolgálat</h4>
+                    <p class="card-text">Csillagmező község védőnői szolgálatát <strong>Kiss Andrea </strong>védőnő látja el.</p>
+                    <p class="card-text"><strong>Rendelési idő:</strong></p>
+                    <ul>
+                        <li>Hétfő: 9:00-12:00</li>
+                        <li>Szerda: 8:45-14:00</li>
+                        <li>Péntek: 9:00-13:00</li>
+                    </ul>
+                    <p class="card-text"><strong>Elérhetőség:</strong></p>
+                    <ul>
+                        <li>Telefon:+36 20 987 6543</li>
+                        <li>Email: vedono@csillagmezo.hu </li>
+                    </ul>
+                </div>
+                <div class="flex-shrink-0">
+                    <img src="Kiss Andrea.png" alt="Kiss Andrea" class="img-fluid" width="300px" height="300px">
+                </div>
             </div>
 
         </div>
+        <div class="card">
+            <div class="card-body d-flex gap-4">
+                <div class="flex-grow-1">
+                    <h4 class="card-title">Gyógyszertár</h4>
+                    <p class="card-text">Csillagmező község lakosságának gyógyszerellátását az <strong>Aranyalma Gyógyszertár</strong> biztosítja, amely a település központjában, könnyen megközelíthető helyen található.</p>
+                    <h5 class="card-text">Cím</h5>
+                    <p class="card-text">Csillagmező, Fő utca 13.</p>
+                    <h4 class="card-text">Nyitvatartási idő</h4>
+                    <ul>
+                        <li>Hétfő: 8:00-17:00</li>
+                        <li>Kedd: 8:00-17:00</li>
+                        <li>Szerda: 8:00-17:00</li>
+                        <li>Csütörtök: 8:00-17:00</li>
+                        <li>Péntek: 8:00-17:00</li>
+                        <li>Szombat: 9:00-13:00</li>
+                        <li>Vasárnap: Zárva</li>  
+                    </ul>
+                    <h4 class="card-text">Elérhetőség</h4>
+                    <h5 class="card-text">Telefonszám</h5>
+                    <p class="card-text">+36 30 123 4567</p>
+                    <p class="card-text">Nyitvatartási időben munkatársaink készséggel állnak rendelkezésre telefonos tájékoztatás esetén.</p>
+                    <h5 class="card-text">E-mail cím</h5>
+                    <p class="card-text">aranyalma@csillagmezo.hu</p>
+                </div>
+                <div class="flex-shrink-0">
+                    <img src="Gyógyszertár.png" alt="Aranyalma Gyógyszertár" class="img-fluid" width="300px" height="300px">
+                </div>
+            </div>
+        </div>
 
-
+        <footer class="mt-1 p-4 text-white text-center">
+            <p>Minden jog fenntartva</p>
+            <p>📞 Telefonszám:  +36 30 130 6789</p>
+            <p>📧 E-mail cím: info@csillagmezo.hu</p>
+        </footer>
     </body>
 </html>
