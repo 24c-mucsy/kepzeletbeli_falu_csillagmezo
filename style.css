@@ -1,0 +1,48 @@
+nav, header, .footer {
+    background-color: #142850;
+}
+
+body {
+    background-color: #27496D;
+}
+
+.carousel_image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.szoveg {
+    text-align: justify;
+    padding-left: 25px;
+    color: #fffacd;
+}
+
+h1, p, .nav-link {
+    color: #fffacd;
+}
+
+a:hover {
+    color: #fffacd !important;
+}
+
+.card-body {
+    text-decoration: none;
+    color: #1F1F1F;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    margin: 25px;
+}
+
+.egész, .card {
+    padding: 0;
+    height: auto;
+    width: 46%;
+    margin-bottom: 50px;
+}
